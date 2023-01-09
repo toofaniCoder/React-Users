@@ -11,20 +11,7 @@ import {
   Switch,
   withRouter
 } from "react-router-dom";
-import NotFound from "./components/pages/NotFound";
-import AddUser from "./components/users/AddUser";
-import EditUser from "./components/users/EditUser";
-import User from "./components/users/User";
-
-function App(props) {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
-
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+import NotFound fro
         </Switch>
       </div>
     </Router>
